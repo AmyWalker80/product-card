@@ -1,0 +1,90 @@
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+
+.product-image img {
+    width: auto;
+    height: 410px;
+    border-radius: 10px 0 0 10px;
+}
+
+.product-details {
+    padding-left: 10px;
+
+}
+
+.category, .title, .description, .pricing, .purchase-button {
+    padding: 0 25px 0 20px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.sale {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 26px;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.regular-price {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.category {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.description {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 10px 75px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.attribution {
+    margin-top: 250px;
+}
